@@ -2,3 +2,7 @@ matplotlib==2.2.2
 ipywidgets==7.2.1
 scipy==1.0.1
 numpy==1.14.2
+pandas==0.22.0
+biosppy
+pyentrp
+pywt

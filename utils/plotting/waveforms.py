@@ -20,7 +20,7 @@ from ipywidgets import interact, fixed
 def plot_waveform(index, labels, waveform_path, fs):
 
     # Get file name
-    file_name = labels.loc[index, 'name']
+    file_name = labels.loc[index, 'file_name']
 
     # Get label
     label = labels.loc[index, 'label']
@@ -32,10 +32,7 @@ def plot_waveform(index, labels, waveform_path, fs):
     fig = plt.figure(figsize=(15, 6))
     fig.subplots_adjust(hspace=0.25)
     ax1 = plt.subplot2grid((1, 1), (0, 0))
-    ax1.set_title(
-        'File Name: ' + file_name + '\n'  
-        'Label: ' + label, fontsize=20
-    )
+    ax1.set_title('File Name: ' + file_name + '\nLabel: ' + label, fontsize=20)
 
     # Plot waveform
     ax1.plot(time, waveform, '-k')

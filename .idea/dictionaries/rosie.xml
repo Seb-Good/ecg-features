@@ -1,9 +1,23 @@
 <component name="ProjectDictionaryState">
   <dictionary name="rosie">
     <words>
+      <w>biosppy</w>
+      <w>decomp</w>
+      <w>higuchi</w>
+      <w>idxs</w>
       <w>ipywidgets</w>
+      <w>kurtosis</w>
       <w>matplotlib</w>
+      <w>ndarray</w>
+      <w>periodogram</w>
+      <w>preprocess</w>
+      <w>pyeeg</w>
+      <w>pyentrp</w>
+      <w>pyrem</w>
+      <w>pywt</w>
       <w>scipy</w>
+      <w>univariate</w>
+      <w>welch</w>
     </words>
   </dictionary>
 </component>
