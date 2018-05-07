@@ -247,44 +247,4 @@ class Features:
                 # Update feature dictionary
                 features.update(full_waveform_features.get_full_waveform_features())
 
-            # # RRI features
-            # if feature_group == 'rri_features':
-            #
-            #     # Get features
-            #     heart_rate_variability_statistics = RRIFeatures(
-            #         ts=ts,
-            #         signal_raw=signal_raw,
-            #         signal_filtered=signal_filtered,
-            #         rpeaks=rpeaks,
-            #         templates_ts=templates_ts,
-            #         templates=templates,
-            #         fs=self.fs,
-            #         template_before=template_before,
-            #         template_after=template_after
-            #     )
-            #     heart_rate_variability_statistics.calculate_heart_rate_variability_statistics()
-            #
-            #     # Update feature dictionary
-            #     features.update(heart_rate_variability_statistics.get_heart_rate_variability_statistics())
-            #
-            # # Template features
-            # if feature_group == 'template_features':
-            #
-            #     # Get features
-            #     template_statistics = TemplateFeatures(
-            #         ts=ts,
-            #         signal_raw=signal_raw,
-            #         signal_filtered=signal_filtered,
-            #         rpeaks=rpeaks,
-            #         templates_ts=templates_ts,
-            #         templates=templates,
-            #         fs=self.fs,
-            #         template_before=template_before,
-            #         template_after=template_after
-            #     )
-            #     template_statistics.calculate_template_statistics()
-            #
-            #     # Update feature dictionary
-            #     features.update(template_statistics.get_template_statistics())
-
         return pd.Series(data=features)

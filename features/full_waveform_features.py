@@ -1,11 +1,9 @@
 """
-full_waveform_statistics.py
+feature_extractor.py
 --------------------
-This module provides a class and methods for extracting full waveform statistics from ECG signals.
-Implemented code assumes a single-channel lead ECG signal.
-:copyright: (c) 2017 by Goodfellow Analytics
+This module provides a class and methods for extracting full waveform features from ECG signals.
 --------------------
-By: Sebastian D. Goodfellow, Ph.D.
+By: Sebastian D. Goodfellow, Ph.D., 2017
 """
 
 # Compatibility imports

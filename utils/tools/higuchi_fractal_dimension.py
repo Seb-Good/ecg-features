@@ -3,9 +3,8 @@ higuchi_fractal_dimension.py
 ----------------------------
 Function to calculate the Higuchi Fractal Dimension from a time series. This function was taken from the pyrem
 univariate library (https://github.com/gilestrolab/pyrem/blob/master/src/pyrem/univariate.py).
-:copyright: (c) 2017 by Goodfellow Analytics
 ----------------------------
-By: Sebastian D. Goodfellow, Ph.D.
+By: Sebastian D. Goodfellow, Ph.D., 2017
 """
 
 # Compatibility imports
