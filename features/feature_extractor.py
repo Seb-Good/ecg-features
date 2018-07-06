@@ -233,15 +233,10 @@ class Features:
             if feature_group == 'full_waveform_features':
 
                 # Extract features
-                full_waveform_features = FullWaveformFeatures(
-                    ts=ts,
-                    signal_raw=signal_raw,
-                    signal_filtered=signal_filtered,
-                    rpeaks=rpeaks,
-                    templates_ts=templates_ts,
-                    templates=templates,
-                    fs=self.fs,
-                )
+                full_waveform_features = FullWaveformFeatures(ts=ts, signal_raw=signal_raw,
+                                                              signal_filtered=signal_filtered, rpeaks=rpeaks,
+                                                              templates_ts=templates_ts, templates=templates,
+                                                              fs=self.fs)
                 full_waveform_features.extract_full_waveform_features()
 
                 # Update feature dictionary

@@ -11,7 +11,23 @@ figure below presents examples of each rhythm class and the AliveCor acquisition
 
 ![Rock Image](figures/waveform_examples.png)
 
-This repository the code feature extraction code we used for our submission. 
+This repository contains the feature extraction code we used for our submission. 
+
+## Publications
+1.	Goodfellow, S. D., A. Goodwin, R. Greer, P. C. Laussen, M. Mazwi, and D. Eytan (2018), Atrial fibrillation 
+classification using step-by-step machine learning, Biomed. Phys. Eng. Express, 4, 045005. DOI: 10.1088/2057-1976/aabef4 
+
+2. Goodfellow, S. D., A. Goodwin, R. Greer, P. C. Laussen, M. Mazwi, and D. Eytan, Classification of atrial fibrillation 
+using multidisciplinary features and gradient boosting, Computing in Cardiology, Sept 24–27, 2017, Rennes, France.
+
+## Affiliations
+1. The Hospital for Sick Children <br>
+Department of Critical Care Medicine  <br>
+Toronto, Ontario, Canada
+
+2. Laussen Labs <br>
+www.laussenlabs.ca  <br>
+Toronto, Ontario, Canada
 
 ## License
 [MIT](LICENSE.txt)
