@@ -5,7 +5,9 @@
       <w>decomp</w>
       <w>higuchi</w>
       <w>idxs</w>
+      <w>ipynb</w>
       <w>ipywidgets</w>
+      <w>jupyter</w>
       <w>kurtosis</w>
       <w>matplotlib</w>
       <w>ndarray</w>
@@ -15,6 +17,7 @@
       <w>pyentrp</w>
       <w>pyrem</w>
       <w>pywt</w>
+      <w>resampling</w>
       <w>scipy</w>
       <w>univariate</w>
       <w>welch</w>
