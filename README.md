@@ -21,7 +21,7 @@ classification using step-by-step machine learning, Biomed. Phys. Eng. Express, 
 2. Goodfellow, S. D., A. Goodwin, R. Greer, P. C. Laussen, M. Mazwi, and D. Eytan, Classification of atrial fibrillation 
 using multidisciplinary features and gradient boosting, Computing in Cardiology, Sept 24–27, 2017, Rennes, France.
 
-## Affiliations
+## Research Affiliations
 1. The Hospital for Sick Children <br>
 Department of Critical Care Medicine  <br>
 Toronto, Ontario, Canada
