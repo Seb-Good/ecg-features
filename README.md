@@ -15,7 +15,8 @@ below presents examples of each rhythm class and the [AliveCor](https://www.aliv
 Download Training Dataset: [training2017.zip](https://www.physionet.org/challenge/2017/training2017.zip)
 
 ![Waveform Image](figures/waveform_examples.png) 
-*Left: AliveCor hand held ECG acquisition device. Right: Examples of ECG recording for each rhythm class.*
+*Left: AliveCor hand held ECG acquisition device. Right: Examples of ECG recording for each rhythm class, 
+Goodfellow et al. (2018).*
 
 ## Publications
 1.	Goodfellow, S. D., A. Goodwin, R. Greer, P. C. Laussen, M. Mazwi, and D. Eytan (2018), Atrial fibrillation 
